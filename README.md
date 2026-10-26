@@ -2,6 +2,8 @@
 
 Offline-first IE3122 revision with practical, deterministic classroom models.
 
+[Open the live lab](https://sithum5433.github.io/network-security-lab/) · [GitHub repository](https://github.com/sithum5433/network-security-lab)
+
 - 15 adjustable real-world labs, one per substantive lesson.
 - 73 attack/defence and mechanism walkthroughs.
 - 16 calculation labs, 207 recall questions and 198 tutorial/lab answer groups.
@@ -41,7 +43,7 @@ node preview.mjs
 
 ## GitHub Pages
 
-This folder is the repository root. [The workflow](.github/workflows/pages.yml) tests and builds on pushes to `main`, then deploys only `dist/`. In the repository’s Pages settings, choose **GitHub Actions** as the source. No backend, database, API key or domain is required.
+This folder is the repository root. [The workflow](.github/workflows/pages.yml) tests and builds on pushes to `main`, then deploys only `dist/`. GitHub Pages uses **GitHub Actions** as the source. No backend, database, API key, login or custom domain is required to use the public lab.
 
 Workflow references: [checkout](https://github.com/actions/checkout), [setup-node](https://github.com/actions/setup-node), [deploy-pages](https://github.com/actions/deploy-pages).
 
